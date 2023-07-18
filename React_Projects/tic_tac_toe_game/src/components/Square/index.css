@@ -1,0 +1,9 @@
+.square-container{
+    width:30%;
+    height:93%; 
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-size:26px;
+}

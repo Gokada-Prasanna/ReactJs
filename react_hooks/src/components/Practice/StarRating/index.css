@@ -1,0 +1,61 @@
+button{
+    border:none;
+    background-color:transparent;
+}
+
+.ON{
+    color:#000;
+}
+
+.OFF{
+    color:#ccc;
+}
+
+.star-rating-container{
+    display:flex;
+    flex-direction:column;
+    padding:50px;
+    margin:30px;
+    margin-bottom:50px;
+    
+}
+
+.add_button{
+    border:1px solid #000000;
+}
+
+.displayRating{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.consolidate_button{
+    border:1px solid #000000;
+}
+
+.bg-container{
+    display:flex;
+    width:100%;
+}
+
+.first-section{
+    width:50%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.second-section{
+    width:50%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.consolidated-rating-heading{
+    font-size:10px;
+}

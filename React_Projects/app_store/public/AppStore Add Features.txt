@@ -1,0 +1,10 @@
+Cart:
+1 - cart icon
+2 - cart icon along with the no.of items selected
+3 - when the cart icon is clicked 
+	1 - it should show the add items according to the category
+
+
+Responsiveness of the page
+---> It should be responded based on the device size 
+---> mobile and tab - Hamburger menu

@@ -1,0 +1,50 @@
+.converter-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+}
+
+.section1{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    align-self:flex-start;
+}
+
+hr{
+    border:1px solid grey;
+    width:100%;
+}
+
+.converterTabGroup{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    list-style-type:none;
+}
+
+.converterButton{
+    border:none;
+    background-color:transparent;
+}
+
+.converter-keypad{
+    width: 35%;
+      display:grid;
+      grid-template-columns:repeat(4, 2fr);
+      grid-auto-rows:minmax(60px, auto); 
+      grid-auto-columns:minmax(80px, auto);
+}
+
+/* .con-button{
+    width:24%;
+    height:10vh;
+    background-color:transparent;
+    border-radius:20px;
+    margin:1px;
+    border:1px solid grey;
+} */

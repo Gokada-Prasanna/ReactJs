@@ -1,0 +1,19 @@
+.converter-input-container{
+    display:flex;
+    flex-direction:row;
+}
+
+.input-container{
+    display:flex;
+    flex-direction:row;
+}
+.output-container{
+    display:flex;
+    flex-direction:row;
+}
+
+.input[type="text"]{
+    border:3px solid black;
+
+
+}

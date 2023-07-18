@@ -1,0 +1,21 @@
+.medicines-list-container{
+    width: 93%;
+    height:500px;
+    max-height:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    border-radius:5px;
+    box-shadow:2px 2px 5px grey;
+    margin-top:20px;
+    padding:10px;
+    list-style-type:none;
+    overflow-y:scroll;
+}
+
+@media screen and (max-width: 768px){
+.medicines-list-container{
+overflow-y:scroll;    
+}    
+}

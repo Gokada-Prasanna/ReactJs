@@ -1,0 +1,136 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+    padding-left:0px;
+    padding-right:0px;
+    height: auto;
+    min-height:100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    max-width:100%;
+  }
+  
+  .tabItemsList {
+    display: flex;
+    padding-left: 0px;
+    justify-content: space-around;
+    list-style-type: none;
+    border-bottom: 1px solid #dfe2e5;
+    width:100%;
+  }
+
+  @media screen and (min-width: 768px){
+    .tabItemsList{
+      width:60%;
+
+    }
+  }
+  
+  .appItemsContainer {
+    margin:0px;
+    padding-left:50px;
+    padding-right:50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 100%;
+    overflow-y:scroll;
+  }
+  
+  .heading {
+    color: #1e293b;
+    font-family: Bree Serif;
+    font-size: 40px;
+    
+  }
+
+.input-tabs-container{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+}
+
+@media screen and (min-width: 768px){
+  .input-tabs-container{
+    flex-direction:row;
+    justify-content:space-around;
+    padding-left:50px;
+    padding-right:50px;
+    
+  }
+}
+
+  .inputContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dfe2e5;
+    border-left: 1px solid #7b8794;
+    border-right: 1px solid #7b8794;
+    border-radius: 4px;
+    background-color: transparent;
+    width:70%;
+  }
+
+  @media screen and (min-width: 768px){
+    .inputContainer{
+      width:20%;
+    }
+  }
+  
+  .searchBox {
+    background-color: transparent;
+    border-width: 0px;
+    width: 100%;
+    cursor: pointer;
+    color: #7b8794;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+  input:focus {
+    outline: none;
+  }
+  .searchIcon {
+    height: 25px;
+    width: 25px;
+  }
+
+  .tabs-cart-button-container{
+    width:70%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+  }
+
+  @media screen and (min-width: 768px){
+    .tabs-cart-button-container{
+      width: 60%;
+    }
+  }
+
+  .cart-button-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .cart-button{
+    background-color:transparent;
+    border:none;
+  }
+
+  .cart{
+    color: #7b8794;
+    font-size:30px;
+  }
+
+  .items-cart{
+    color: #7b8794;
+    align-self:flex-start;
+  }

@@ -1,0 +1,31 @@
+
+  .review-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+  }
+  
+  .username {
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: 700;
+  }
+  
+  .companyName {
+    color: #171f46;
+    font-family: Roboto;
+  }
+  
+  .description {
+    color: #171f46;
+    font-family: Roboto;
+    text-align: center;
+  }
+  
+  @media (max-width: 576px) {
+    .carousel-container {
+      width: 60%;
+    }
+  }

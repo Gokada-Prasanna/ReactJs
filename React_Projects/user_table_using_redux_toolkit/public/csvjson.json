@@ -1,0 +1,46 @@
+[
+  {
+    "Timestamp": "5/12/2023 14:22:59",
+    "Email Address": "prasanna.gokada@kloctechnologies.com",
+    "Score": "1 / 6",
+    "www\" full form is \"World Wide Web": "FALSE",
+    "Charles Babbage is the Inventor of the Computer": "Unsure",
+    "ReactJs\"  was created by Jordan Walke": "Unsure",
+    "React is Javascript Library": "Unsure",
+    "Java was first released in the year 1995": "Unsure",
+    "NaN\" is the full form of \"Not A Number": "TRUE"
+  },
+  {
+    "Timestamp": "5/12/2023 12:51:19",
+    "Email Address": "satya.sai.allam@gmail.com",
+    "Score": "3 / 5",
+    "www\" full form is \"World Wide Web": "FALSE",
+    "Charles Babbage is the Inventor of the Computer": "TRUE",
+    "ReactJs\"  was created by Jordan Walke": "TRUE",
+    "React is Javascript Library": "TRUE",
+    "Java was first released in the year 1995": "FALSE",
+    "NaN\" is the full form of \"Not A Number": ""
+  },
+  {
+    "Timestamp": "5/12/2023 13:07:15",
+    "Email Address": "ritesh8759@gmail.com",
+    "Score": "4 / 5",
+    "www\" full form is \"World Wide Web": "TRUE",
+    "Charles Babbage is the Inventor of the Computer": "TRUE",
+    "ReactJs\"  was created by Jordan Walke": "Unsure",
+    "React is Javascript Library": "TRUE",
+    "Java was first released in the year 1995": "TRUE",
+    "NaN\" is the full form of \"Not A Number": ""
+  },
+  {
+    "Timestamp": "5/12/2023 14:22:34",
+    "Email Address": "prasannagokada1996@gmail.com",
+    "Score": "2 / 6",
+    "www\" full form is \"World Wide Web": "TRUE",
+    "Charles Babbage is the Inventor of the Computer": "TRUE",
+    "ReactJs\"  was created by Jordan Walke": "Unsure",
+    "React is Javascript Library": "FALSE",
+    "Java was first released in the year 1995": "Unsure",
+    "NaN\" is the full form of \"Not A Number": "FALSE"
+  }
+]

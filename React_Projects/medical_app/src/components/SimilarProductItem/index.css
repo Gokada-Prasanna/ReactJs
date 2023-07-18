@@ -1,0 +1,56 @@
+.similar-product-item {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left:30px;
+    padding-right:30px;
+    justify-content:space-between;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .similar-product-item {
+        flex-direction:column;
+      width: 200px;
+      margin-right: 64px;
+      
+    }
+  }
+
+  .medicine-content{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  .similar-product-image {
+    width: 200px;
+    border-radius: 8px;
+  }
+  
+  .similar-product-title {
+    color: #171f46;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 6px;
+  }
+  
+  .similar-products-brand {
+    color: #594d6d;
+    font-family: 'Roboto';
+    font-size: 16px;
+    margin:0px;
+  }
+  
+
+  
+  .similar-product-price {
+    color: #171f46;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    margin-top:3px;
+  }
+  
+  
+  
